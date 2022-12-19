@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root{
+}
+
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway';
+  font-size: 14px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex{
+  display: flex;
+  /* width: 60vw; */
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(229, 57%, 11%);
+  padding: 100px;
+  position: relative;
+}
+
+.img-desktop{
+  position: absolute;
+  z-index: -3;
+}
+
+
+.icons > img{
+  background-color: hsl(229, 57%, 11%);
+  padding: 8px;
+  margin-top: 15px;
+  margin-right: 8px;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.first-box,
+.second-box{
+  background-color: hsl(228, 56%, 26%);
+}
+
+.first-box{
+  margin-right: 10px;
+  padding: 20px 100px 20px 20px;
+  border-radius: 10px 60px 10px 10px;
+}
+
+.second-box{
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.second-box > p{
+  color: #fff;
+  margin-bottom: 15px;
+  opacity: 50%;
+}
+
+.second-box > p > span{
+  font-weight: 700;
+  opacity: 100%;
+}
+
+.progress-bar{
+  background-color: hsl(229, 57%, 11%);
+  opacity: 70%;
+  width: 400px;
+  height: 15px;
+  border-radius: 50px;
+}
